@@ -6,4 +6,18 @@ Author: Brian Mendez
 Date: 2024-04-07
 
 Filename: tss_styles.css
+
+Body
+{background: navyblue;
+}
+    
+h1{
+color: white;
+test-align:center;
+}
+    
+p{
+font-family: verdana;
+font-size: 15px;
+}
 */
