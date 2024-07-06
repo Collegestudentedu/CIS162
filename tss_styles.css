@@ -1,23 +1,15 @@
 @charset "utf-8"/* 
-<lang="en">
-
-TSS Typographic Style Sheet
-Author: Brian Mendez 
-Date: 2024-04-07
+/* CSS Document */
 
 Filename: tss_styles.css
 
-Body
-{background: navyblue;
-}
+Nav {background-color:}
+Body{background-color: lightcyan;}
     
-h1{
-color: white;
-test-align:center;
-}
-    
-p{
-font-family: verdana;
-font-size: 15px;
+h1{color: lightslategray;test-align:center;}
+Nav {background-color: silver}
+
+p{font-family: verdana;
+font-size: 20px;
 }
 */
