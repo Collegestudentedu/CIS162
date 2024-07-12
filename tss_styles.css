@@ -1,15 +1,112 @@
 @charset "utf-8"/* 
 /* CSS Document */
-
+    
 Filename: tss_styles.css
 
-Nav {background-color:}
-Body{background-color: lightcyan;}
-    
-h1{color: lightslategray;test-align:center;}
-Nav {background-color: silver}
+/* Page Body Styles */
 
-p{font-family: verdana;
-font-size: 20px;
+Body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    max-width: 500px;
+    min-width: 500px;   
 }
-*/
+
+Body {   
+}
+Body{background-color: lightcyan;}
+
+
+
+
+
+#wrapper {width: 1092px;
+    border: 3px solid black;
+    margin:auto auto;
+    display: flow-root;
+}
+article { 
+border: 1px solid black;
+    text-align: center;
+}
+main {
+    float: left;
+    width: 446px;
+}
+aside {
+    float: right;
+    width: 545px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+}
+
+
+
+h1{color: gray;
+}
+
+ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+}
+
+li ol {
+   text-align: center;
+}
+li a {
+    float: center;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover{
+    background-color: #111;
+}
+
+Nav {
+    display: block;
+    horizontal-align: left;
+    font-size: 100%;
+    text-align: center;
+}
+p{font-family: verdana;
+    font-size: 20px;
+}
+
+/* Floating Styles */    
+
+nav.horizontalNavigation li {
+    display: block;
+    float: center;
+}
+
+
+footer {
+    text-align: center;
+}   
+
+/* Container Collapse Styles */
+
+body > footer::after {
+    clear: both;
+    content: "";
+    display: table;
+}
